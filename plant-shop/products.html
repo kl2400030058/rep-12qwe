@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenGlow Plants - Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GreenGlow Plants</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="cart.html">Cart <i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-container">
+        <h1>Our Plants</h1>
+        
+        <section class="category">
+            <h2>Indoor Plants</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="1" data-category="indoor">
+                    <img src="images/plant1.svg" alt="Monstera Deliciosa">
+                    <h3>Monstera Deliciosa</h3>
+                    <p class="price">$29.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="2" data-category="indoor">
+                    <img src="images/plant2.svg" alt="Peace Lily">
+                    <h3>Peace Lily</h3>
+                    <p class="price">$24.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>Succulents</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="3" data-category="succulent">
+                    <img src="images/plant3.svg" alt="Echeveria">
+                    <h3>Echeveria</h3>
+                    <p class="price">$14.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="4" data-category="succulent">
+                    <img src="images/plant4.svg" alt="Aloe Vera">
+                    <h3>Aloe Vera</h3>
+                    <p class="price">$19.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>Flowering Plants</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="5" data-category="flowering">
+                    <img src="images/plant5.svg" alt="Orchid">
+                    <h3>Orchid</h3>
+                    <p class="price">$34.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="6" data-category="flowering">
+                    <img src="images/plant6.svg" alt="Anthurium">
+                    <h3>Anthurium</h3>
+                    <p class="price">$27.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

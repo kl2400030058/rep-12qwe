@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenGlow Plants - Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GreenGlow Plants</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html" class="active">Cart <i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        
+        <div id="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Total Items:</span>
+                <span id="total-items">0</span>
+            </div>
+            <div class="summary-row">
+                <span>Total Cost:</span>
+                <span id="total-cost">$0.00</span>
+            </div>
+        </div>
+        
+        <div class="payment-methods">
+            <h2>Payment Methods</h2>
+            <div class="payment-options">
+                <div class="payment-category">
+                    <h3>UPI Options</h3>
+                    <div class="payment-selection">
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="upi-gpay">
+                            <span class="option-label"><i class="fas fa-mobile-alt"></i> Google Pay UPI</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="upi-phonepe">
+                            <span class="option-label"><i class="fas fa-mobile-alt"></i> PhonePe UPI</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="upi-paytm">
+                            <span class="option-label"><i class="fas fa-mobile-alt"></i> Paytm UPI</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="upi-other">
+                            <span class="option-label"><i class="fas fa-mobile-alt"></i> Other UPI ID</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="payment-category">
+                    <h3>International Payment Options</h3>
+                    <div class="payment-selection">
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card-visa">
+                            <span class="option-label"><i class="fab fa-cc-visa"></i> Visa</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card-mastercard">
+                            <span class="option-label"><i class="fab fa-cc-mastercard"></i> Mastercard</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card-amex">
+                            <span class="option-label"><i class="fab fa-cc-amex"></i> American Express</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment-method" value="paypal">
+                            <span class="option-label"><i class="fab fa-paypal"></i> PayPal</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-actions">
+            <a href="products.html" class="btn secondary"><i class="fas fa-arrow-left"></i> Continue Shopping</a>
+            <button id="checkout-btn" class="btn primary"><i class="fas fa-credit-card"></i> Checkout</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

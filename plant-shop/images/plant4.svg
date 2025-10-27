@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .leaf {fill: #8BC34A;}
+    .pot {fill: #795548;}
+    .soil {fill: #5D4037;}
+  </style>
+  <rect class="pot" x="70" y="140" width="60" height="50" rx="5" />
+  <rect class="soil" x="70" y="140" width="60" height="10" />
+  <path class="leaf" d="M100,50 L85,140 L100,130 L115,140 Z" />
+  <path class="leaf" d="M100,60 L80,130 L100,120 L120,130 Z" />
+  <path class="leaf" d="M100,70 L75,120 L100,110 L125,120 Z" />
+</svg>

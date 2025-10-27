@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .leaf {fill: #4CAF50;}
+    .flower {fill: #F44336;}
+    .pot {fill: #795548;}
+    .soil {fill: #5D4037;}
+  </style>
+  <rect class="pot" x="70" y="140" width="60" height="50" rx="5" />
+  <rect class="soil" x="70" y="140" width="60" height="10" />
+  <path class="stem" d="M100,140 L100,70" stroke="#4CAF50" stroke-width="3" fill="none" />
+  <path class="flower" d="M100,70 C80,50 80,30 100,30 C120,30 120,50 100,70 Z" />
+  <path class="stem" d="M100,70 L100,40" stroke="#FFEB3B" stroke-width="2" fill="none" />
+  <path class="leaf" d="M100,100 C80,90 70,70 80,60 C100,70 120,70 100,100 Z" />
+  <path class="leaf" d="M100,120 C120,110 130,90 120,80 C100,90 80,90 100,120 Z" />
+</svg>

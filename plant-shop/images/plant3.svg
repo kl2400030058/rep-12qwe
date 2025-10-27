@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .succulent {fill: #7CB342;}
+    .pot {fill: #795548;}
+    .soil {fill: #5D4037;}
+  </style>
+  <rect class="pot" x="70" y="140" width="60" height="50" rx="5" />
+  <rect class="soil" x="70" y="140" width="60" height="10" />
+  <circle class="succulent" cx="100" cy="100" r="40" />
+  <circle class="succulent" cx="100" cy="100" r="30" opacity="0.7" />
+  <circle class="succulent" cx="100" cy="100" r="20" opacity="0.5" />
+  <circle class="succulent" cx="100" cy="100" r="10" opacity="0.3" />
+</svg>
